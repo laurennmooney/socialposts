@@ -1,0 +1,51 @@
+form {
+    display: flex;
+    flex-direction: column;
+    background: #B1DDEA;
+    padding: 20px 30px;
+    margin: 10px 0;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+input, button, textarea {
+    font-family: 'Dosis', sans-serif;
+    background: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+input {
+    height: 30px;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+#thought {
+    font-size: 16px;
+    height: 30px;
+    padding: 5px 10px;
+    resize: none;
+}
+
+input:focus {
+    height: 50px;
+}
+
+#thought:focus {
+    height: 160px;
+    padding: 10px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}

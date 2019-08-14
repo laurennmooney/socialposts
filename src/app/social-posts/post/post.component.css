@@ -1,0 +1,30 @@
+.post {
+    border-bottom: 1px solid #f3f1f7;
+    padding: 10px;
+    margin: 0 30px;
+    position: relative;
+}
+
+#post-title {
+    font-size: 24px;
+}
+
+.thought {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+.remove_button {
+    cursor: pointer;
+    font-size: 22px;
+    padding: 4px;
+}
+
+.remove_button:hover {
+    color: #B1DDEA;;
+}

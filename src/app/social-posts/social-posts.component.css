@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    margin: 20px;
+    font-family: 'Dosis', sans-serif;
+    width: 50vw;
+}
+
+.post-section, .newThought_btn {
+    background: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.post-section {
+    padding: 20px 30px 50px 30px;
+}
+
+#main-title {
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(3, 169, 244);
+    text-align: center;
+}
+
+.newThought_btn {
+    font-family: 'Dosis', sans-serif;
+    width: 50vw;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

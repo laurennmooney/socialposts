@@ -1,0 +1,25 @@
+<body>
+  <main>
+    <h1 id="main-title">My Thoughts</h1>
+    <button 
+        class="newThought_btn" 
+        (click)="toggleForm()" 
+        *ngIf="!show"
+    >New thought</button>
+    <app-post-form 
+        class="newPostForm" 
+        (submitted)="onSubmit($event)" 
+        *ngIf="show"
+    ></app-post-form>
+    <section class="post-section">
+      <div>
+        <post 
+            *ngFor="let post of posts; index as i" 
+            [post]="post"   
+            [postIndex]="i" 
+            (onRemove)="onRemoveHandler($event)"
+        ></post>
+      </div>
+    </section>
+  </main>
+</body>
